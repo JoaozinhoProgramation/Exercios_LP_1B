@@ -1,4 +1,4 @@
-n1 = int(input("Informe um número: "))
-print("Dobro do seu número:" + n1*2)
-print("Triplo do seu número:" + n1*3)
-print("Raiz quadrada do seu número:" + (n1**(1/2)))
+n1 = int(input("Informe um número:"))
+print("Dobro do seu número:{}".format(n1*2))
+print("Triplo do seu número:{}".format(n1*3))
+print("Raiz quadrada:{}".format(n1**2))
